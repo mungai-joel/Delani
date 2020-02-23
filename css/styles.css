@@ -72,12 +72,22 @@ text-align: center;
 }
 #baileywonger{
     position: absolute;
-    top: 187%;
-    left: 83%;
+    top: 225%;
+    left: 90%;
     transform: translate(-50%,-50%);
     border: #FEFEFC solid 2px;
     background: transparent;
     color: white;
     font-size: xx-large;
 }
-
+h4{
+    text-align: center;
+    text-emphasis: bold;
+}
+#contact-us{
+    position: absolute;
+    top: 215%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+}
