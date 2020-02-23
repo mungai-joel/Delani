@@ -34,4 +34,17 @@ text-align: center;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.about-us{
+    text-align: center;
+    font-size: smaller;
+}
+.services{
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
