@@ -50,4 +50,34 @@ text-align: center;
 #service-image{
     width: 100%;
 }
+.h1{
+    font-size: xx-large;
+}
+.h3{
+    text-align: center;
+}
+.what-we-do{
+    float: right;
+    width: 80%;
+    padding: 20px;
+}
+.column{
+    float: left;
+    width: 25%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#baileywonger{
+    position: absolute;
+    top: 187%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    border: #FEFEFC solid 2px;
+    background: transparent;
+    color: white;
+    font-size: xx-large;
+}
 
