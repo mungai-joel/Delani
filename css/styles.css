@@ -1,27 +1,27 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: 'tomorrow';
 }
 .top-center{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .welcome{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'tomorrow';
     line-height: 69px;
     color: white;
     font-size: xx-large;
 }
 #amazing{
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: 'tomorrow';
     color: white;
     font-size: smaller;
     line-height: 69px;
 }
 .centered{
 position: absolute;
-top: 50%;
+top: 40%;
 left: 50%;
 transform: translate(-50%,-50%);
 text-align: center;
@@ -31,7 +31,7 @@ text-align: center;
 }
 #mouseclick{
     position: absolute;
-    top: 70%;
+    top: 59%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -44,7 +44,7 @@ text-align: center;
     font-size: smaller;
     color: white;
     position: absolute;
-    top: 150%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -66,6 +66,11 @@ text-align: center;
     float: left;
     width: 25%;
 }
+.rob:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    opacity: 3;
+}
 .row::after{
     content: "";
     display: table;
@@ -73,8 +78,8 @@ text-align: center;
 }
 #baileywonger{
     position: absolute;
-    top: 225%;
-    left: 90%;
+    top: 197%;
+    left: 75%;
     transform: translate(-50%,-50%);
     border: #FEFEFC solid 2px;
     background: transparent;
@@ -88,7 +93,7 @@ h4{
 .contactus{
     color: white;
     position: absolute;
-    top: 320%;
+    top: 213%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -98,7 +103,7 @@ h4{
 }
 .contactform{
     position: absolute;
-    top: 340%;
+    top: 235%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -128,3 +133,44 @@ h4{
     background-color: transparent;
     margin-left: 10%;
 }
+.hide-product{
+    display: none;
+}
+.hide-development{
+    display: none;
+}
+.hide-design{
+    display: none;
+}
+p.clickable-1{
+    text-align: center;
+}
+    
+p.clickable-2{
+    text-align: center;
+}
+    
+p.clickable-3{
+    text-align: center;
+}
+    
+button{
+    margin-left: 40%;
+}
+textarea{
+    background-color: transparent;
+}
+    
+.port1,.port2,.port3,.port4,.port5,.port6,.port7,.port8{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #FEFEFC solid 2px;
+    background: #FEFEFC;
+    opacity: 0.7;
+    color: black;
+}
+    
+    
