@@ -109,4 +109,22 @@ h4{
     font-size:small ;
     text-align: center;
 }
-    
+.socialicons{
+    margin-left: 35%;
+}
+.message{
+    background-color: transparent;
+    margin-left: 10%;
+}
+#name{
+    background-color: transparent;
+    margin-left: 10%;
+}
+#email{
+    background-color: transparent;
+    margin-left: 10%;
+}
+#submit{
+    background-color: transparent;
+    margin-left: 10%;
+}
