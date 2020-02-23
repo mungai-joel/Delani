@@ -27,5 +27,5 @@ $(document).ready(function() {
     $("button").click(function(event){
     $(".message")[0].reset();
     });
-    });
+    }); 
     
