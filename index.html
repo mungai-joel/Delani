@@ -70,7 +70,7 @@
                         <img class="clickable-2" src="assets/services_icons/dev_icon.png" alt="Development">
                         <p>DEVELOPMENT</p>
                         <div class="hide-development">
-                        <span class="clickable_2">
+                        <span class="clickable-2">
                         <p>All engineers are fluent in the latest enterprise, mobile <br>
                         and web development technologies. <br>
                         They collaborate with your team to write, and improve <br> 
@@ -84,7 +84,7 @@
                         <img span="clickable-3" src="assets/services_icons/product_icon.png" alt="Product Management">
                         <p>PRODUCT MANAGEMENT</p>
                         <div class="hide-product">
-                            <span class="clickable_3"><p>Planning and development is iterative. Because we are <br> 
+                            <span class="clickable-3"><p>Planning and development is iterative. Because we are <br> 
                                 constantly coding and testing, the products we build are <br> 
                                 always ready to go live. <br> 
                                 This iterative process allows for changes as business <br> 
@@ -141,13 +141,20 @@
                                     <p class="contactus"><strong>CONTACT US</strong></p>
 
                             <div class="contactform"> 
-                                <form class="message" method="POST">
-                                    <input id="name" type="text" name="Name" placeholder="Name...">
-                                    <input id="email" type="text" name="Email" placeholder="Email..."> 
-                                        <br><br>
-                                        <textarea class="message" name="Your Message" placeholder="Your message..." cols="90" rows="10"></textarea>
-                                        <button type="submit" id="submit">Submit</button>
-                                    </form>
+                                <form class="nameform" action="index.html" method="post">
+                                    <input type="text" name="" value="" placeholder="Name..." class="bg-transparent" id="name">
+                                    <input type="email" name="" value="" placeholder="Email..." id="email">
+                            
+                            
+                                  <div class="justified">
+                                    <textarea rows="4" cols="90" name="comment" form="usrform" required id="textarea" placeholder="Your message here..." style="background-color:transparent">
+                                      </textarea>
+                            
+                                  </div>
+                                  <div class="sub">
+                                    <button value="submit" type="submit"id="submit">submit</button>
+                                  </div>
+                            </form>
                                     <br>
                                 </div>
                             </div>

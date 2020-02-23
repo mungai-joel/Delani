@@ -1,8 +1,9 @@
-$(document).ready(function() {
-    $(".clickable-1").click(function() {
-    $(".hide-design").toggle();
+$(document).ready(function(){
+	$(".clickable-1").click(function(){
+        $(".hide-design").toggle();	  
     });
     });
+
     
 $(document).ready(function() {
     $(".clickable-2").click(function() {
@@ -15,17 +16,27 @@ $(document).ready(function() {
     $(".hide-product").toggle();
     });
     });
-    
-$(document).ready(function(){
+$(document).ready(function() {
     $("form").submit(function(event){
-    var name = $("input#name").val();
-    alert(name + " " + "we have received your message. Thank you for reaching out to us.");;
+        //var name = $("input#name").val();
+        ///alert(name + " " + "we have received your message. Thank you for reaching out to us.");;
+        //});
+        //});
+        
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        if (name == "" || email == "") {
+            alert("Cannot submit without name and email");
+        } else {
+            alert("Thank you " + name + " \n Message submitted successfully");
+        }
     });
-    });
+});
     
 $(document).ready(function() {
     $("button").click(function(event){
     $(".message")[0].reset();
     });
     }); 
+
     
