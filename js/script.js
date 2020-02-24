@@ -1,23 +1,23 @@
-$(document).ready(function(){
-	$(".clickable-1").click(function(){
-    $(".hide-design").toggle();	  
+$(document).ready(function () {
+    $(".clickable-1").click(function () {
+        $(".hide-design").toggle();
     });
-    });
+});
 
-    
-$(document).ready(function() {
-    $(".clickable-2").click(function() {
-    $(".hide-development").toggle();
+
+$(document).ready(function () {
+    $(".clickable-2").click(function () {
+        $(".hide-development").toggle();
     });
+});
+
+$(document).ready(function () {
+    $(".clickable-3").click(function () {
+        $(".hide-product").toggle();
     });
-    
-$(document).ready(function() {
-    $(".clickable-3").click(function() {
-    $(".hide-product").toggle();
-    });
-    });
-$(document).ready(function() {
-    $("form").submit(function(event){
+});
+$(document).ready(function () {
+    $("form").submit(function (event) {
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
         if (name == "" || email == "") {
@@ -28,12 +28,10 @@ $(document).ready(function() {
         event.preventDefault();
     });
 });
-    
-$(document).ready(function() {
-    $("button").click(function(event){
-    $(".message")[0].reset();
-    event.preventDefault();
-    });
-    }); 
 
-    
+$(document).ready(function () {
+    $("button").click(function (event) {
+        $(".message")[0].reset();
+        event.preventDefault();
+    });
+});
