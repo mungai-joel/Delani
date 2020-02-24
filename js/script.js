@@ -25,12 +25,14 @@ $(document).ready(function() {
         } else {
             alert("Thank you " + name + " \n Message submitted successfully");
         }
+        event.preventDefault();
     });
 });
     
 $(document).ready(function() {
     $("button").click(function(event){
     $(".message")[0].reset();
+    event.preventDefault();
     });
     }); 
 
