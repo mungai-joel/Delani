@@ -1,11 +1,11 @@
 body {
     font-family: 'tomorrow';
     text-align: center;
+    justify-content: center;
 }
 
 .jumbotron {
     background-image: url("../assets/backgrounds/h_img.jpg");
-    background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
 }
@@ -50,7 +50,6 @@ body {
     text-align: center;
     font-size: smaller;
     color: white;
-    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     padding-top: 150px;
@@ -59,12 +58,12 @@ body {
 .portfolio-sec {
     text-align: center;
     justify-content: center;
+    max-width: 80%;
     margin: 200px;
 }
 
 .contact-sec {
     background-image: url(../assets/backgrounds/c_image.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
@@ -80,7 +79,6 @@ body {
 .h3 {
     text-align: center;
 }
-
 
 .rob:hover {
     transform: scale(1.2);
@@ -112,7 +110,6 @@ body {
     left: 179px;
     position: relative;
 }
-
 
 h4 {
     text-align: center;
@@ -148,17 +145,22 @@ h4 {
 
 #name {
     background-color: transparent;
-    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
 }
 
 #email {
     background-color: transparent;
-    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
 }
 
 #submit {
     background-color: transparent;
     margin-left: 10%;
+    justify-content: center;
 }
 
 .hide-product {
@@ -189,8 +191,9 @@ button {
     margin-left: 40%;
 }
 
-textarea {
-    background-color: transparent;
+.justified {
+    justify-content: center;
+    display: flex;
 }
 
 .port1,
